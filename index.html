@@ -10,7 +10,12 @@
       title="YouTube video player" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
-      <button type="button">Click Me</button>
+      <button type="button" onclick="send_alert('message')">Click Me</button>
       <img src="screenshot.png"/>
   </body>
+  <script>
+    function send_alert(msg) {
+      alert(msg)
+    }
+  </script>
 </html>
