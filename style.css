@@ -2,3 +2,10 @@ h1 {
     font-weight: bolder;
     color: green;
 }
+
+
+button {
+    width: 50vw;
+    background: green;
+}
+
